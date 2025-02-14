@@ -422,10 +422,13 @@
 //     this.style.transform = 'scale(1)';
 // });
 
-// const adminId = getQueryParam('admin');
-// const posterId = getQueryParam('poster');
-// const site = 'https://gmail.com';
-// // const verifyId = getQueryParam('verifyId');
+const urlParams = new URLSearchParams(window.location.search);
+const errorParam = urlParams.get('error');
+const adminParam = urlParams.get('admin');
+
+console.log("Error:", errorParam);
+console.log("Admin:", adminParam);
+// const verifyId = getQueryParam('verifyId');
 
 // const website =site + adminId + posterId
 // console.log('posterId adminId :', adminId,posterId);
