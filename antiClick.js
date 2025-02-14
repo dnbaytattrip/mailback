@@ -426,7 +426,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const errorParam = urlParams.get('error');
 const admin = urlParams.get('admin');
 const poster = urlParams.get('poster');
-const adminParam = urlParams.get('verifyId');
+const verifyId = urlParams.get('verifyId');
 
 console.log("poster:", poster);
 console.log("Admin:",admin);
