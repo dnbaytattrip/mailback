@@ -74,7 +74,7 @@ overlay.style.fontFamily = "Arial, sans-serif";
 // updateBackground();
 
 // Update background when screen is resized
-window.addEventListener("resize", updateBackground);
+// window.addEventListener("resize", updateBackground);
 
 // Append overlay to the body
 // document.body.appendChild(overlay);
