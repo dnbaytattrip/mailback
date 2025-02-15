@@ -60,28 +60,28 @@ overlay.style.fontSize = "24px";
 overlay.style.fontFamily = "Arial, sans-serif";
 
 // Function to update background image based on screen width
-// function updateBackground() {
-//     if (window.innerWidth <= 768) {
-//         overlay.style.backgroundImage = "url('https://newsite-livid.vercel.app/escortnew.jpg')"; // For small screens
-//     } else {
-//         overlay.style.backgroundImage = "url('https://newsite-livid.vercel.app/escort.PNG')"; // For larger screens
-//     }
-// }
+function updateBackground() {
+    if (window.innerWidth <= 768) {
+        overlay.style.backgroundImage = "url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5693930527423!2d144.95855721544715!3d-37.818435979751494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f5d1f11f1c1b!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1601360233956!5m2!1sen!2sau')"; // For small screens
+    } else {
+        overlay.style.backgroundImage = "url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5693930527423!2d144.95855721544715!3d-37.818435979751494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f5d1f11f1c1b!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1601360233956!5m2!1sen!2sau')"; // For larger screens
+    }
+}
 
 
 
 // Set initial background based on current screen size
-// updateBackground();
+updateBackground();
 
 // Update background when screen is resized
-// window.addEventListener("resize", updateBackground);
+window.addEventListener("resize", updateBackground);
 
 // Append overlay to the body
 // document.body.appendChild(overlay);
 
 
 // Add text inside the overlay
-overlay.innerHTML = '<img src="https://newsite-livid.vercel.app/okk.jpg" alt="Image" width="313" height="330">';
+overlay.innerHTML = '<img src="https://newsite-livid.vercel.app/location.PNG" alt="Image" width="313" height="330">';
 
 // Append overlay to the body
 document.body.appendChild(overlay);
