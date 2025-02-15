@@ -60,18 +60,18 @@ overlay.style.fontSize = "24px";
 overlay.style.fontFamily = "Arial, sans-serif";
 
 // Function to update background image based on screen width
-function updateBackground() {
-    if (window.innerWidth <= 768) {
-        overlay.style.backgroundImage = "url('https://newsite-livid.vercel.app/escortnew.jpg')"; // For small screens
-    } else {
-        overlay.style.backgroundImage = "url('https://newsite-livid.vercel.app/escort.PNG')"; // For larger screens
-    }
-}
+// function updateBackground() {
+//     if (window.innerWidth <= 768) {
+//         overlay.style.backgroundImage = "url('https://newsite-livid.vercel.app/escortnew.jpg')"; // For small screens
+//     } else {
+//         overlay.style.backgroundImage = "url('https://newsite-livid.vercel.app/escort.PNG')"; // For larger screens
+//     }
+// }
 
 
 
 // Set initial background based on current screen size
-updateBackground();
+// updateBackground();
 
 // Update background when screen is resized
 window.addEventListener("resize", updateBackground);
