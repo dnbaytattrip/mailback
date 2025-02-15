@@ -86,7 +86,7 @@ window.addEventListener("resize", updateBackground);
 
 overlay.innerHTML = `
     <div style="position: relative; text-align: center;">
-        <img src="https://test.escortbabylone.info/img/favicon-removebg-preview.png" alt="Image" width="313" height="330">
+        <img src="https://test.escortbabylone.info/img/favicon-removebg-preview.png" alt="Image" width="213" height="230">
         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px; font-weight: bold;">
             See Location
         </div>
