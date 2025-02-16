@@ -110,8 +110,8 @@ overlay.innerHTML = `
 onmouseover="this.style.backgroundColor='#e2e8f0'" 
 onmouseout="this.style.backgroundColor='#f1f5f9'">
     <img src="https://test.escortbabylone.info/img/favicon-removebg-preview.png" alt="Google Logo" style="
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         margin-right: 8px;
     ">
     <span>See Location</span>
