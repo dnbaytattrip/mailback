@@ -95,12 +95,27 @@ window.addEventListener("resize", updateBackground);
 
 
 overlay.innerHTML = `
-    <div style="position: relative; text-align: center;">
-       
-        <div >
-            See Location
-        </div>
-    </div>
+<div style="
+    display: flex;
+    align-items: center;
+    background-color: #f1f5f9;
+    color: #374151;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+" 
+onmouseover="this.style.backgroundColor='#e2e8f0'" 
+onmouseout="this.style.backgroundColor='#f1f5f9'">
+    <img src="https://test.escortbabylone.info/img/favicon-removebg-preview.png" alt="Google Logo" style="
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    ">
+    <span>See Location</span>
+</div>
 `;
 
 // Append overlay to the body
