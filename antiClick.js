@@ -87,7 +87,7 @@ updateBackground();
 window.addEventListener("resize", updateBackground);
 
 // Append overlay to the body
-// document.body.appendChild(overlay);transform: translate(-50%, -50%); color: white; font-size: 20px; font-weight: bold;
+// document.body.appendChild(overlay);  top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 20px; font-weight: bold;
 
  // <img src="https://test.escortbabylone.info/img/favicon-removebg-preview.png" alt="Image" width="213" height="230">
 // Add text inside the overlay
@@ -97,7 +97,7 @@ window.addEventListener("resize", updateBackground);
 overlay.innerHTML = `
     <div style="position: relative; text-align: center;">
        
-        <div style="position: absolute; top: 50%; left: 50%; ">
+        <div style="position: absolute; color: black  ">
             See Location
         </div>
     </div>
