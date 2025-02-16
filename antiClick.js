@@ -115,9 +115,9 @@ onmouseout="this.style.backgroundColor='#f1f5f9'">
         margin-right: 8px;
     ">
     <span style="
-        width: 20px;
-        height: 20px;
-        margin-right: 8px;
+        width: 5px;
+        height: 5px;
+       
     ">See Location</span>
 </div>
 `;
